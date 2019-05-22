@@ -1,0 +1,94 @@
+#mynavbar{
+    background-color: #741414;
+    position: fixed !important;
+    z-index: 10;
+    width: 100%;
+}
+#mynavbar-transparent{
+    background-color: transparent;
+    position: fixed !important;
+    z-index: 10;
+    width: 100%;
+}
+.nav-item a{
+    color: white;
+}
+.carousel-caption h5 {
+    text-shadow: 2px 2px black;
+    font-size: 6vw;
+    overflow-y: hidden;
+}
+
+.carousel-caption p {
+    text-shadow: 1px 1px black;
+}
+
+#carouselExampleIndicators {
+    height: 100vh;
+}
+
+.w-100 {
+    height: 100vh !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+#btn-drop{
+   background-color: transparent;
+   border: unset;
+
+}
+#btn-drop:focus{
+    box-shadow: none;
+    outline:none;
+ }
+
+ .error{
+     color:red;
+ }
+
+ #pop-up{
+
+    position: absolute !important;
+    z-index:1000;
+ }
+ .post-thumb{
+     width:7em;
+     height:10em;
+     display:block;
+     margin-right:auto;
+     margin-left:auto;
+ }
+ .row{
+     margin-bottom: 4em;
+ }
+ .page-title{
+     width: 100%;
+     text-align: center;
+     margin: 0.5em 0em 2em 0em;
+ }
+ .fa-star{
+     color:yellow !important;
+ }
+ .form-button{
+     width: 100% !important;
+     display: flex;
+     justify-content: center;
+ }
+ .form-button button{
+     width: 8em;
+ }
+ .btn-primary{
+     background-color:#741414;
+     border: unset;
+ }
+ .btn-primary:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.first-row{
+    height:3rem !important;
+}
+.button-container button{
+    width:5rem !important;
+}
